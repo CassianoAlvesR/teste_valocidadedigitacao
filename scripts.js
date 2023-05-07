@@ -73,11 +73,7 @@ function alterarTema(){
     //console.log(body);
 
     if(body.classList == "escuro"){
-        alterarTemaBtn.innerHTML = "Modo Claro";
-        alterarTemaBtn.style.backgroundColor = "#808080";
-        reiniciar.style.backgroundColor = "#808080";      
-        alterarTemaBtn.style.color = "#000";
-        reiniciar.style.color = "#000";    
+        alterarTemaBtn.innerHTML = "Modo Claro";   
     } else {
         alterarTemaBtn.innerHTML = "Modo Escuro";
     } 
