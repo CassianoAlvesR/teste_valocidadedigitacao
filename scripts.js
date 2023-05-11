@@ -6,9 +6,10 @@ const historico = document.querySelector("#historico")
 const alterarTemaBtn = document.querySelector("#alterarTema")
 
 const textos = [
-    "Exemplo 1 de digitacao nivel facil.",
-    "Exemplo 2 de digitacao nivel medio.",
-    "Exemplo 3 de digitacao nivel hard."
+    "Exemplo 1 de digitacao aleatoria nivel facil.",
+    "Exemplo 2 de digitacao aleatoria nivel medio - aqui voce digita mais.",
+    "Exemplo 3 de digitacao aleatoria nivel intermediário - aqui voce digita, digita, e digita mais um pouco.",
+    "Exemplo 4 de digitacao aleatoria nivel difícil - aqui voce digita muuuito, em media não deve terminar antes de uns 10 segundos."
 ];
 
 function novoTexto(){
